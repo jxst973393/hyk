@@ -1,0 +1,7 @@
+<!--pages/admin/admin.wxml-->
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="form 中的 textarea" name="textarea"/>{{gl2.gl2}}
+    <button form-type="submit"> 提交 </button>
+  </form>
+  </view>

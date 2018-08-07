@@ -1,0 +1,8 @@
+<!--pages/admin/admin.wxml-->
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="form 中的 textarea" name="textarea"/>{{gl2.gl2}}<view class='line'></view>
+    <textarea placeholder="输入手机号" name="ccc" />
+    <button form-type="submit"> 提交 </button>
+  </form>
+  </view>

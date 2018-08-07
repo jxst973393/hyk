@@ -1,0 +1,24 @@
+<view class="container">
+  <scroll-view>
+  <view class="poster">
+  </view>
+  <view class="content__friend" >
+
+      <view class="photo-flex" >
+      <view class="photo-box"  wx:for-item="_User"  >
+      <text class='texttishi'>点击会员卡绑定手机号</text>
+        <image bindtap='bangdingshoujihao' src="../../images/hyk.png" class="index-photo"   ></image>
+ <text class="content-text"  data-id="{{_User.objectId}}">
+        会员积分{{_User.jifen}}</text>
+      </view>
+      </view>
+    </view>
+    
+  <!-- </view> -->
+  <view class="buyhistory" bindtap="bindViewTap1" hidden='{{_User.admin != 1}}' >
+    <text class="buyhistory-text"  > 管理员入口</text>
+    <view class="line"></view>
+  </view>
+  </scroll-view>
+</view>
+
