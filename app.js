@@ -1,9 +1,7 @@
 //app.js
 const AV = require('./libs/av-weapp-min.js');
 AV.init({
-  appId: "TK0L23h1pBkt9gxlS8WFEzmo-gzGzoHsz",
-  appKey: "iHiqSL8bjoox47qhQIAwpnHI",
-  masterKey: "bzVTMmlDyQt4Mc6pAsef4v5B",
+ 
 });
 AV._config.useMasterKey = true;
 
